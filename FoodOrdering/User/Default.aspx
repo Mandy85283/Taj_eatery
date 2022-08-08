@@ -168,7 +168,7 @@
           <div class="detail-box">
             <div class="heading_container">
               <h2>
-               Food Ordering
+              Taj Eatery
               </h2>
             </div>
             <p>

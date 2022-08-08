@@ -30,7 +30,7 @@
             <div class="box">
               <div>
                 <div class="img-box">
-                  <img src="images/f1.png" alt="">
+                    <img src="../TemplateFile/images/alootikki.jpg" alt="">
                 </div>
                 <div class="detail-box">
                   <h5>
@@ -106,7 +106,7 @@
             <div class="box">
               <div>
                 <div class="img-box">
-                  <img src="images/f2.png" alt="">
+                    <img src="../TemplateFile/images/dahbhalla.jpg" alt="">
                 </div>
                 <div class="detail-box">
                   <h5>
@@ -182,7 +182,7 @@
             <div class="box">
               <div>
                 <div class="img-box">
-                  <img src="images/f3.png" alt="">
+                    <img src="../TemplateFile/images/panipuri.jpg" alt="">
                 </div>
                 <div class="detail-box">
                   <h5>
@@ -258,7 +258,7 @@
             <div class="box">
               <div>
                 <div class="img-box">
-                  <img src="images/f4.png" alt="">
+                    <img src="../TemplateFile/images/chickentandori.jpg" alt="">
                 </div>
                 <div class="detail-box">
                   <h5>
@@ -334,7 +334,7 @@
             <div class="box">
               <div>
                 <div class="img-box">
-                  <img src="images/f5.png" alt="">
+                    <img src="../TemplateFile/images/greekkebabs.jpg" alt="">
                 </div>
                 <div class="detail-box">
                   <h5>
@@ -410,7 +410,7 @@
             <div class="box">
               <div>
                 <div class="img-box">
-                  <img src="images/f6.png" alt="">
+                    <img src="../TemplateFile/images/tandoorichickenleg.jpg" alt="">
                 </div>
                 <div class="detail-box">
                   <h5>
@@ -486,7 +486,7 @@
             <div class="box">
               <div>
                 <div class="img-box">
-                  <img src="images/f7.png" alt="">
+                    <img src="../TemplateFile/images/karaipaneer.jpg" alt="">
                 </div>
                 <div class="detail-box">
                   <h5>
@@ -562,7 +562,7 @@
             <div class="box">
               <div>
                 <div class="img-box">
-                  <img src="images/f8.png" alt="">
+                    <img src="../TemplateFile/images/shahipaneer.jpg" alt="">
                 </div>
                 <div class="detail-box">
                   <h5>
@@ -638,7 +638,7 @@
             <div class="box">
               <div>
                 <div class="img-box">
-                  <img src="images/f9.png" alt="">
+                    <img src="../TemplateFile/images/chillipaneer.jpg" alt="">
                 </div>
                 <div class="detail-box">
                   <h5>
@@ -710,13 +710,11 @@
               </div>
             </div>
           </div>
-        </div>
-      </div>
          <div class="col-sm-6 col-lg-4 all nonvegcourse">
             <div class="box">
               <div>
                 <div class="img-box">
-                  <img src="images/f9.png" alt="">
+                    <img src="../TemplateFile/images/ButterChicken.jpg" alt="">
                 </div>
                 <div class="detail-box">
                   <h5>
@@ -788,13 +786,11 @@
               </div>
             </div>
           </div>
-        </div>
-      </div>
       <div class="col-sm-6 col-lg-4 all nonvegcourse">
             <div class="box">
               <div>
                 <div class="img-box">
-                  <img src="images/f9.png" alt="">
+                    <img src="../TemplateFile/images/chillichicken.jpg" alt="">
                 </div>
                 <div class="detail-box">
                   <h5>
@@ -866,14 +862,12 @@
               </div>
             </div>
           </div>
-        </div>
-      </div>
       <div class="col-sm-6 col-lg-4 all nonvegcourse">
             <div class="box">
               <div>
                 <div class="img-box">
-                  <img src="images/f9.png" alt="">
-                </div>
+                    <img src="../TemplateFile/images/ChickenKarahi.jpg" alt="">
+                    </div>
                 <div class="detail-box">
                   <h5>
                    Karai Chicken
@@ -944,13 +938,11 @@
               </div>
             </div>
           </div>
-        </div>
-      </div>
       <div class="col-sm-6 col-lg-4 all Breads">
             <div class="box">
               <div>
                 <div class="img-box">
-                  <img src="images/f9.png" alt="">
+                    <img src="../TemplateFile/images/tandoorinaan.jpg" alt="">
                 </div>
                 <div class="detail-box">
                   <h5>
@@ -1022,13 +1014,11 @@
               </div>
             </div>
           </div>
-        </div>
-      </div>
       <div class="col-sm-6 col-lg-4 all Breads">
             <div class="box">
               <div>
                 <div class="img-box">
-                  <img src="images/f9.png" alt="">
+                    <img src="../TemplateFile/images/tandooriroti.jpg" alt="">
                 </div>
                 <div class="detail-box">
                   <h5>
@@ -1100,13 +1090,11 @@
               </div>
             </div>
           </div>
-        </div>
-      </div>
       <div class="col-sm-6 col-lg-4 all Breads">
             <div class="box">
               <div>
                 <div class="img-box">
-                  <img src="images/f9.png" alt="">
+                    <img src="../TemplateFile/images/GarlicNaan.jpg" alt="">
                 </div>
                 <div class="detail-box">
                   <h5>
@@ -1178,13 +1166,11 @@
               </div>
             </div>
           </div>
-        </div>
-      </div>
       <div class="col-sm-6 col-lg-4 all Desserts">
             <div class="box">
               <div>
                 <div class="img-box">
-                  <img src="images/f9.png" alt="">
+                    <img src="../TemplateFile/images/Gulabjamun.jpg" alt="">
                 </div>
                 <div class="detail-box">
                   <h5>
@@ -1256,13 +1242,11 @@
               </div>
             </div>
           </div>
-        </div>
-      </div>
       <div class="col-sm-6 col-lg-4 all Desserts">
             <div class="box">
               <div>
                 <div class="img-box">
-                  <img src="images/f9.png" alt="">
+                    <img src="../TemplateFile/images/rasmalai.jpg" alt="">
                 </div>
                 <div class="detail-box">
                   <h5>
@@ -1334,13 +1318,11 @@
               </div>
             </div>
           </div>
-        </div>
-      </div>
       <div class="col-sm-6 col-lg-4 all Beverages">
             <div class="box">
               <div>
                 <div class="img-box">
-                  <img src="images/f9.png" alt="">
+                    <img src="../TemplateFile/images/lass.jpg" alt="">
                 </div>
                 <div class="detail-box">
                   <h5>
@@ -1412,13 +1394,12 @@
               </div>
             </div>
           </div>
-        </div>
-      </div>
       <div class="col-sm-6 col-lg-4 all Beverages">
             <div class="box">
               <div>
                 <div class="img-box">
-                  <img src="images/f9.png" alt="">
+                    <img src="../TemplateFile/images/BadamMilk.jpg" alt="">
+                  
                 </div>
                 <div class="detail-box">
                   <h5>
@@ -1490,13 +1471,12 @@
               </div>
             </div>
           </div>
-        </div>
-      </div>
       <div class="col-sm-6 col-lg-4 all Beverages">
             <div class="box">
               <div>
                 <div class="img-box">
-                  <img src="images/f9.png" alt="">
+                    <img src="../TemplateFile/images/mangoshake.jpg" alt="">
+                  <img src="../TemplateFile/images/f9.png">
                 </div>
                 <div class="detail-box">
                   <h5>
