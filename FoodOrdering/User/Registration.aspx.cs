@@ -14,8 +14,8 @@ namespace FoodOrdering.User
 {
     public partial class Registration : System.Web.UI.Page
     {
-        SqlConnection con = new SqlConnection();
-        SqlCommand cmd = new SqlCommand();
+        SqlConnection con;
+        SqlCommand cmd;
         SqlDataAdapter sda;
         DataTable dt;
         protected void Page_Load(object sender, EventArgs e)

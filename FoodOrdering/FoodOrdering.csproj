@@ -92,6 +92,7 @@
     <Content Include="TemplateFile\images\Gulabjamun.jpg" />
     <Content Include="TemplateFile\images\karaipaneer.jpg" />
     <Content Include="TemplateFile\images\lass.jpg" />
+    <Content Include="TemplateFile\images\login.jpg" />
     <Content Include="TemplateFile\images\mangoshake.jpg" />
     <Content Include="TemplateFile\images\panipuri.jpg" />
     <Content Include="TemplateFile\images\rasmalai.jpg" />
