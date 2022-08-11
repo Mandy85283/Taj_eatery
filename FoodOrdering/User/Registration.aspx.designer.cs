@@ -168,6 +168,15 @@ namespace FoodOrdering.User
         protected global::System.Web.UI.WebControls.TextBox txtPostCode;
 
         /// <summary>
+        /// fuUserImage control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.FileUpload fuUserImage;
+
+        /// <summary>
         /// rfvPassword control.
         /// </summary>
         /// <remarks>
@@ -202,5 +211,14 @@ namespace FoodOrdering.User
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label lblAlreadyUser;
+
+        /// <summary>
+        /// imgUser control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Image imgUser;
     }
 }
