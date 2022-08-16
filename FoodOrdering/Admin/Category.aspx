@@ -96,7 +96,7 @@
                                                         </HeaderTemplate>
                                                         <ItemTemplate>
                                                             <tr>
-                                                                <td><%#Eval("Name")%></td>
+                                                                <td class="table-plus"><%#Eval("Name")%></td>
                                                                 <td><img alt="" width="40" src="<%#Utils.GetImageUrl(Eval("ImageUrl"))%>" />
                                                                 </td>
                                                                 <td>
