@@ -1550,11 +1550,11 @@
           </div>
         </div>
       </div>
-      <div class="btn-box">
+      <%--<div class="btn-box">
         <a href="">
           View More
         </a>
-      </div>
+      </div>--%>
     </div>
   </section>
 

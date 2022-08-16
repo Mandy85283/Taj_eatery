@@ -54,11 +54,7 @@
             </form>
           </div>
         </div>
-        <div class="col-md-6">
-          <div class="map_container ">
-            <div id="googleMap"></div>
-          </div>
-        </div>
+       
       </div>
     </div>
   </section>
