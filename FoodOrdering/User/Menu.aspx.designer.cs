@@ -7,11 +7,19 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
+using FoodOrdering.Models;
+using Newtonsoft.Json;
+using System.Collections.Generic;
+using System.Net.Http;
+using System.Threading.Tasks;
+
 namespace FoodOrdering.User
 {
 
 
     public partial class Menu
     {
+
     }
+
 }
