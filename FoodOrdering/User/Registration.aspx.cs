@@ -20,7 +20,7 @@ namespace FoodOrdering.User
         DataTable dt;
         protected void Page_Load(object sender, EventArgs e)
         {
-      
+
             if (!IsPostBack)
             {
                 if (Request.QueryString["id"] != null) //&& Session["userId"] != null
@@ -81,7 +81,7 @@ namespace FoodOrdering.User
                     con.Open();
                     cmd.ExecuteNonQuery();
                     actionName = userId == 0 ?
-                        "registration is successful! <b> <href='Login.aspx'>Click here</a></b> to do login":
+                        "registration is successful! <b> <href='Login.aspx'>Click here</a></b> to do login" :
                     "deatils updated successful! <b> <a href='Profile.aspx'>Can click here</a></>";
                     lblMsg.Visible = true;
                     lblMsg.Text = "<b>" + txtUsername.Text.Trim() + "</b>" + actionName;
@@ -92,7 +92,7 @@ namespace FoodOrdering.User
                     }
                     Clear();
                 }
-                catch(SqlException ex)
+                catch (SqlException ex)
                 {
                     if (ex.Message.Contains("Violation of UNIQUE KEY constraint"))
                     {
@@ -137,13 +137,13 @@ namespace FoodOrdering.User
                 imgUser.Width = 200;
                 txtPassword.TextMode = TextBoxMode.SingleLine;
                 txtPassword.ReadOnly = true;
-                txtPassword.Text = dt.Rows[0]["Password"].ToString();   
+                txtPassword.Text = dt.Rows[0]["Password"].ToString();
             }
             lblHeaderMsg.Text = "<h2>Edit Profile</h2>";
             btnRegister.Text = "Update";
             lblAlreadyUser.Text = "";
         }
-       
+
         private void Clear()
         {
             txtName.Text = string.Empty;

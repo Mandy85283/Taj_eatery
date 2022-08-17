@@ -128,9 +128,8 @@
                                     </a>
                                     <ul class="show-notification profile-notification">
                                         <li>
-                                            <a href="auth-normal-sign-in.html">
-                                                <i class="ti-layout-sidebar-left"></i>Logout
-                                        </a>
+                                            <a href="../User/Login.aspx"><i class="ti-layout-sidebar-left"></i>Logout</a>
+                                              
                                         </li>
                                     </ul>
                                 </li>
@@ -174,16 +173,6 @@
                                         </a>
                                     </li>
                                 </ul>
-                                <div class="pcoded-navigatio-lavel" data-i18n="nav.category.other">Product Delivery Status</div>
-                                <ul class="pcoded-item pcoded-left-item">
-                                    <li>
-                                        <a href="#">
-                                            <span class="pcoded-micon"><i class="ti-direction-alt"></i><b>M</b></span>
-                                            <span class="pcoded-mtext" data-i18n="nav.menu-levels.main">Update Status</span>
-                                            <span class="pcoded-mcaret"></span>
-                                        </a>
-                                    </li>
-                                </ul>
                                 <div class="pcoded-navigatio-lavel" data-i18n="nav.category.other">User's List</div>
                                 <ul class="pcoded-item pcoded-left-item">
                                     <li>
@@ -194,27 +183,6 @@
                                         </a>
                                     </li>
                                 </ul>
-                                <div class="pcoded-navigatio-lavel" data-i18n="nav.category.other">User's FeedBack/Query</div>
-                                <ul class="pcoded-item pcoded-left-item">
-                                    <li>
-                                        <a href="#">
-                                            <span class="pcoded-micon"><i class="ti-direction-alt"></i><b>M</b></span>
-                                            <span class="pcoded-mtext" data-i18n="nav.menu-levels.main">Contact</span>
-                                            <span class="pcoded-mcaret"></span>
-                                        </a>
-                                    </li>
-                                </ul>
-                                <div class="pcoded-navigatio-lavel" data-i18n="nav.category.other">Reports</div>
-                                <ul class="pcoded-item pcoded-left-item">
-                                    <li>
-                                        <a href="#">
-                                            <span class="pcoded-micon"><i class="ti-direction-alt"></i><b>M</b></span>
-                                            <span class="pcoded-mtext" data-i18n="nav.menu-levels.main">Selling Report</span>
-                                            <span class="pcoded-mcaret"></span>
-                                        </a>
-                                    </li>
-                                </ul>
-                            </div>
                         </nav>
                         <div class="pcoded-content">
                             <!-- Danger-color Breadcrumb card start -->

@@ -25,27 +25,35 @@ namespace FoodOrdering.User
 
         protected void btnLogin_Click(object sender, EventArgs e)
         {
-            con = new SqlConnection(Connection.GetConnectionString());
-            cmd = new SqlCommand("User_Crud", con);
-            cmd.Parameters.AddWithValue("@Action", "SELECT4LOGIN");
-            cmd.Parameters.AddWithValue("@Username", txtUsername.Text.Trim());
-            cmd.Parameters.AddWithValue("@Password", txtPassword.Text.Trim());
-            cmd.CommandType = CommandType.StoredProcedure;
-            sda = new SqlDataAdapter(cmd);
-            dt = new DataTable();
-            sda.Fill(dt);
-
-            if (dt.Rows.Count == 1)
+            if (txtUsername.Text.Trim() == "Admin" && txtPassword.Text.Trim() == "123")
             {
-                Session["username"] = txtUsername.Text.Trim();
-                Session["userId"] = dt.Rows[0]["UserId"];
-                Response.Redirect("Default.aspx");
+                Session["admin"] = txtUsername.Text.Trim();
+                Response.Redirect("../Admin/Dashboard.aspx");
             }
             else
             {
-                lblMsg.Visible = true;
-                lblMsg.Text = "Invalid Credential..!";
-                lblMsg.CssClass = "alert alert-danger";
+                con = new SqlConnection(Connection.GetConnectionString());
+                cmd = new SqlCommand("User_Crud", con);
+                cmd.Parameters.AddWithValue("@Action", "SELECT4LOGIN");
+                cmd.Parameters.AddWithValue("@Username", txtUsername.Text.Trim());
+                cmd.Parameters.AddWithValue("@Password", txtPassword.Text.Trim());
+                cmd.CommandType = CommandType.StoredProcedure;
+                sda = new SqlDataAdapter(cmd);
+                dt = new DataTable();
+                sda.Fill(dt);
+
+                if (dt.Rows.Count == 1)
+                {
+                    Session["username"] = txtUsername.Text.Trim();
+                    Session["userId"] = dt.Rows[0]["UserId"];
+                    Response.Redirect("Default.aspx");
+                }
+                else
+                {
+                    lblMsg.Visible = true;
+                    lblMsg.Text = "Invalid Credential..!";
+                    lblMsg.CssClass = "alert alert-danger";
+                }
             }
         }
     }

@@ -53,7 +53,7 @@
                                                                 <td><%#Eval("Email")%></td>  
                                                                 <td><%#Eval("CreatedDate")%></td>
                                                                 <td>
-                                                                    <asp:LinkButton ID="lnlDelete" Text="Delete" runat="server" CommandName="delete" CssClass="badge bg-danger" CommandArgument='<%#Eval("UserId")%>' 
+                                                                    <asp:LinkButton ID="lnKDelete" Text="Delete" runat="server" CommandName="delete" CssClass="badge bg-danger" CommandArgument='<%#Eval("UserId")%>' 
                                                                         OnClientClick="return confirm('Do you want to delete this user?');"><i class="ti-trash"></i></asp:LinkButton>
                                                                 </td>
                                                             </tr>

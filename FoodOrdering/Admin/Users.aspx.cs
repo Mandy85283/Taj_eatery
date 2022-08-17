@@ -28,7 +28,7 @@ namespace FoodOrdering.Admin
         {
             con = new SqlConnection(Connection.GetConnectionString());
             cmd = new SqlCommand("User_Crud", con);
-            cmd.Parameters.AddWithValue("@Action", "SELECT4LOGIN");
+            cmd.Parameters.AddWithValue("@Action", "SELECT4ADMIN");
             cmd.CommandType = CommandType.StoredProcedure;
             sda = new SqlDataAdapter(cmd);
             dt = new DataTable();

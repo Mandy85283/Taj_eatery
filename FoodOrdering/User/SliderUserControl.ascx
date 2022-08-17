@@ -16,7 +16,7 @@
                      Indulge in a regal Indian cuisine experience that has satiated the desire of the royalty for ages
                     </p>
                     <div class="btn-box">
-                      <a href="" class="btn1">
+                      <a href="Menu.aspx" class="btn1">
                         Order Now
                       </a>
                     </div>

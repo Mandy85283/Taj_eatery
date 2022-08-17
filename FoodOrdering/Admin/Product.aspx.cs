@@ -146,7 +146,7 @@ namespace FoodOrdering.Admin
                 imgProduct.Width = 200;
                 hdnId.Value = dt.Rows[0]["ProductId"].ToString();
                 btnAddOrUpdate.Text = "Update";
-                LinkButton btn = e.Item.FindControl("linkEdit") as LinkButton;
+                LinkButton btn = e.Item.FindControl("lnkEdit") as LinkButton;
                 btn.CssClass = "badge badge-warning";
             }
             else if (e.CommandName == "delete")
