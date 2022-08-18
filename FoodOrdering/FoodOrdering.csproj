@@ -246,6 +246,7 @@
     <Content Include="TemplateFile\js\custom.js" />
     <Content Include="TemplateFile\js\jquery-3.4.1.min.js" />
     <Content Include="User\About.aspx" />
+    <Content Include="User\Cart.aspx" />
     <Content Include="User\Default.aspx" />
     <Content Include="User\Login.aspx" />
     <Content Include="User\Menu.aspx" />
@@ -303,6 +304,13 @@
     </Compile>
     <Compile Include="User\About.aspx.designer.cs">
       <DependentUpon>About.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="User\Cart.aspx.cs">
+      <DependentUpon>Cart.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="User\Cart.aspx.designer.cs">
+      <DependentUpon>Cart.aspx</DependentUpon>
     </Compile>
     <Compile Include="User\Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>

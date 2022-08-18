@@ -19,7 +19,7 @@
                             <div class="card-title mb-4">
                                 <div class="d-flex justify-content-start">
                                     <div class="image-container">
-                                        <img src="<%= Utils.GetIageUrl(imageUrl) %>" id="imgProfile" style="width:150px; height:150px;" class="img-thumbnail" />
+                                        <img src="<%= Utils.GetImageUrl(imageUrl) %>" id="imgProfile" style="width:150px; height:150px;" class="img-thumbnail" />
                                         <div class="middle pt-2">
                                             <a href ="Registration.aspx"?id="<%Response.Write(Session["userId"]);%>" class="btn btn-warning">
                                                 <i class="fa fa-pencil"></i>Edit Details

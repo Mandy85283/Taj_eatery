@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Configuration;
+using System.Data;
+using System.Data.SqlClient;
 using System.Linq;
 using System.Web;
 
@@ -16,6 +18,8 @@ namespace FoodOrdering
 
     public class Utils
     {
+        SqlConnection con;
+        SqlCommand cmd;
         public static bool IsValidExtension(string fileName)
         {
             bool isValid = false;
@@ -42,6 +46,33 @@ namespace FoodOrdering
                 url1 = string.Format("../{0}", url);
             }
             return url1;
+        }
+        public bool updateCartQuantity(int quantity, int productId, int userId)
+        {
+            bool isUpdated = false;
+            con = new SqlConnection(Connection.GetConnectionString());
+            cmd = new SqlCommand("Cart_Crud", con);
+            cmd.Parameters.AddWithValue("@Action", "UPDATE");
+            cmd.Parameters.AddWithValue("@ProductId", productId);
+            cmd.Parameters.AddWithValue("@Quantity", quantity);
+            cmd.Parameters.AddWithValue("@UserId", userId);
+            cmd.CommandType = CommandType.StoredProcedure;
+            try
+            {
+                con.Open();
+                cmd.ExecuteNonQuery();
+                isUpdated = true;
+            }
+            catch (Exception ex)
+            {
+                isUpdated = false;
+                System.Web.HttpContext.Current.Response.Write("<script>alert('Error - " + ex.Message + " ');<script>");
+            }
+            finally
+            {
+                con.Close();
+            }
+            return isUpdated;
         }
     }
 }
